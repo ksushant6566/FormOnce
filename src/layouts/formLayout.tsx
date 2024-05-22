@@ -12,7 +12,7 @@ export const FormLayout = ({ children, ...props }: FormLayoutProps) => {
   return (
     <RootLayout theme="light" {...props}>
       <div className="flex h-[100vh] flex-col justify-between gap-4">
-        <div className="flex h-[calc(100%-3rem)] items-center justify-center p-8 md:h-[calc(100%-6rem)]">
+        <div className="flex h-max items-center justify-center p-8 md:h-[calc(100%-6rem)]">
           {children}
         </div>
         {/* footer with powered by formOnce branding with a link to formOnce website 'https://formonce.in/' */}
